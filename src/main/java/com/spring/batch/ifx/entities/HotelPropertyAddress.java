@@ -30,7 +30,7 @@ public class HotelPropertyAddress implements Serializable {
 	 * If address is of head office, physical location of property
 	 */
 	@Id
-	@Column(name = "address_type")
+	@Column(name = "use_type")
 	private int addressType;
 
 	@Column(name = "state")
